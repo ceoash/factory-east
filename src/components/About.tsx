@@ -18,9 +18,9 @@ const About = () => {
 
           <div className="relative order-1 col-1 flex justify-center ">
             <div>
-            <div className="rounded-full bg-white aspect-square">
+            <div className="rounded-full bg-white aspect-square min-h-64 h-full w-full">
             <Image
-              className="relative xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 h-auto w-full"
+              className="relative xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 h-auto w-full min-h-52"
               src="/assets/images/boxer-vector.png"
               alt=""
               width={"0"}
