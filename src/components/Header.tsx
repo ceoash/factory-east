@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
               Because every young person deserves a shot at greatness
             </p>
             <div className="pt-6 lg:pt-8">
-              <button className=" border border-white text-white p-2 pr-4 pl-3 rounded-full flex items-center gap-2">
+              <Link href={`#about`} className=" border border-white text-white p-2 pr-4 pl-3 rounded-full flex items-center gap-2">
                 <span className="bg-white/40 rounded-full p-2 border border-white">
                   <svg
                     fill="#FFFFFF"
@@ -38,7 +39,7 @@ const Header = () => {
                   </svg>
                 </span>
                 Learn More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
