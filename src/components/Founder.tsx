@@ -5,7 +5,7 @@ const Founder = () => {
   return (
     <section id="founder" className="flex justify-center sm:p-6 xl:pb-12 xl:p-12 bg-gray-50">
       <div className="xl:grid xl:grid-cols-3 container gap-x-10 bg-white rounded-xl p-6 xl:p-0 h-full ">
-        <div className=" md:order-first h-full w-full relative overflow-hidden xl:rounded-l-xl rounded-l-0  ">
+        <div className=" md:order-first h-full w-full relative overflow-hidden xl:rounded-l-xl rounded-l-0 min-h-48  ">
           <Image
             src="/assets/images/jack-ramadam.jpg"
             alt="Jack Ramadan"

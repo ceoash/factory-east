@@ -103,8 +103,7 @@ const Navbar = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-full"
-                  width={42}
+                  className="h-full w-7 lg:w-12"
                   viewBox="0 0 106.7 97.77"
                 >
                   <g>
@@ -115,11 +114,11 @@ const Navbar = () => {
                     </g>
                   </g>
                 </svg>
-                <div className="ml-3">
-                  <span className="font-medium text-[22px] block -mb-2">
+                <div className="ml-3 flex lg:block gap-x-1.5 font-bold">
+                  <span className="font-semibold text-[20px] lg:text-[22px] block -mb-2">
                     FACTORY
                   </span>
-                  <span className="font-medium text-[22px]">EAST</span>
+                  <span className="font-semibold text-[20px] lg:text-[22px]">EAST</span>
                 </div>
               </Link>
             </div>
@@ -172,29 +171,28 @@ const Navbar = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-full"
-                  width={42}
+                  className="h-full w-10"
                   viewBox="0 0 106.7 97.77"
                   fill="white"
                 >
                   <g>
                     <g>
                       <path d="M9.14,57.05c2.14-10.04,4.17-19.59,6.21-29.14,1.81-8.48,3.69-16.94,5.43-25.44C21.13.74,21.69,0,23.6,0c27.13.06,54.26.04,81.39.05.45,0,.9.06,1.72.11-.37,1.89-.68,3.65-1.06,5.4-1.44,6.76-3.01,13.5-4.3,20.3-.42,2.23-1.38,2.73-3.49,2.72-17.07-.08-34.14,0-51.21-.11-2.34-.02-3.16.68-3.6,2.92-1.54,7.87-3.27,15.71-5.06,23.53-.18.81-1.22,2.02-1.88,2.03-8.84.14-17.69.09-26.97.09Z" />
-                      <path className="fill-gray-600" d="M77.34,71.1h-28.45c1.05-4.99,2.04-9.74,3.05-14.48.84-3.96,1.63-7.94,2.64-11.87.2-.78,1.28-1.9,1.97-1.91,8.66-.11,17.32-.06,25.99-.03.16,0,.32.17.77.42-1.98,9.23-3.97,18.55-5.97,27.86Z" />
+                      <path d="M77.34,71.1h-28.45c1.05-4.99,2.04-9.74,3.05-14.48.84-3.96,1.63-7.94,2.64-11.87.2-.78,1.28-1.9,1.97-1.91,8.66-.11,17.32-.06,25.99-.03.16,0,.32.17.77.42-1.98,9.23-3.97,18.55-5.97,27.86Z" />
                       <path d="M28.45,97.77H0c1.05-4.99,2.04-9.74,3.05-14.48.84-3.96,1.63-7.94,2.64-11.87.2-.78,1.28-1.9,1.97-1.91,8.66-.11,17.32-.06,25.99-.03.16,0,.32.17.77.42-1.98,9.23-3.97,18.55-5.97,27.86Z" />
                     </g>
                   </g>
                 </svg>
                 <div className="ml-3">
-                  <span className="font-medium text-[22px] block -mb-2">
+                  <span className="font-medium text-[18px] block -mb-2">
                     FACTORY
                   </span>
-                  <span className="font-medium text-[22px]">EAST</span>
+                  <span className="font-medium text-[18px]">EAST</span>
                 </div>
               </Link>
             <button
               onClick={() => setIsOpen(false)}
-              className="transition-all duration-300 hover:text-red-200 text-3xl"
+              className="!text-white transition-all duration-300 hover:text-red-200 text-3xl"
             >
               {"✖"}
             </button>
