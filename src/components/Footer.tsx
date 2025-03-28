@@ -26,7 +26,7 @@ const Footer = () => {
                     </g>
                   </g>
                 </svg>
-                <div className="ml-3">
+                <div className="ml-3 text-gray-900">
                   <span className="font-medium text-[22px] block -mb-2">
                     FACTORY
                   </span>

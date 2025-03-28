@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
     <Navbar />
-    <div className="flex flex-col items-center  pt-36 pb-20">
+    <div className="flex flex-col items-center  pt-36 pb-20 bg-white">
     <Contact />
     </div>
     <Subscribe />
