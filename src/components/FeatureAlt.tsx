@@ -167,7 +167,7 @@ const FeatureAlt = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-20 pb-12 xl:p-0 gap-6 p-6">
         <div className="h-full">
           <div className="grid grid-cols-1 relative xl:grid-cols-2 items-center mb-6 xl:mb-32 bg-gray-50 rounded-t-xl xl:rounded-l-none xl:rounded-r-xl">
-            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white">
+            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white z-10">
               <p className="xl:text-3xl text-xl mt-4 xl:mt-8 tracking-tighter font-semibold md:text-gray-700 ">
                 Boxing Club
               </p>
@@ -179,7 +179,7 @@ const FeatureAlt = () => {
             </div>
             <div className=" md:order-first h-full w-full relative overflow-hidden aspect-square ">
               <Image
-                src="/assets/images/boxing.jpg"
+                src="/assets/images/boxing-2.jpg"
                 alt="Boxing acadamey"
                 fill
                 sizes="100vw"
@@ -189,7 +189,7 @@ const FeatureAlt = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 relative xl:grid-cols-2 items-center xl:mb-20 bg-gray-50 rounded-t-xl xl:rounded-l-none xl:rounded-r-xl">
-            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white">
+            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white z-10">
               <p className="xl:text-3xl text-xl mt-4 xl:mt-8 tracking-tighter font-semibold md:text-gray-700 ">
                 Media Workshops
               </p>
@@ -217,7 +217,7 @@ const FeatureAlt = () => {
         </div>
         <div className="h-full xl:pt-64">
           <div className="grid grid-cols-1 relative xl:grid-cols-2 items-center mb-6 xl:mb-32 bg-gray-50 rounded-t-xl xl:rounded-r-none xl:rounded-l-xl">
-            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white">
+            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white z-10">
               <p className="xl:text-3xl text-xl mt-4 xl:mt-8 tracking-tighter font-semibold md:text-gray-700 ">
                 Music Studio
               </p>
@@ -240,7 +240,7 @@ const FeatureAlt = () => {
             
           </div>
           <div className="grid grid-cols-1 relative xl:grid-cols-2 items-center md:flex-row-reverse bg-gray-50 rounded-t-xl xl:rounded-r-none xl:rounded-l-xl">
-            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white">
+            <div className="p-6 xl:p-8 absolute bottom-0 bg-gradient-to-b from-transparent to-red-800 h-full md:relative md:to-transparent md:h-auto flex flex-col justify-end text-white z-10">
               <p className="xl:text-3xl text-xl mt-4 xl:mt-8 tracking-tighter font-semibold md:text-gray-700 ">
                 Mentorship
               </p>
